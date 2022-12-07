@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  padding-top: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.emailButton {
+  color: white;
+  padding: 14px 40px;
+  border: 2px solid black;
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: red;
+  border: none;
+  offset: none;
+  cursor: pointer;
+}
+
+.emailButton:hover {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/**  BlueBold textMark inside the paragraph a word with italic Aligned justify**/
+
+.articleText {
+  font-weight: bold;
+  font-style: italic;
+  align-items: justify;
+  font-size: 24px;
+  color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imagePicture {
+  height: 400px;
+  width: 80%;
+  object-fit: fill;
+}
+
+.formBox {
+  display: flex;
+  background-color: black;
+  border-radius: 15px;
+  flex-direction: column;
+  gap: 40px;
+  padding: 10px 10px;
+  justify-content: center;
+}
+
+.label {
+  font-size: 22px;
+  color: white;
+}
+
+.input {
+  width: 70%;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  offset: none;
+}
+
+.modealContainer {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  position: relative;
+  height: 200px;
+  width: 95%;
+  padding: 20px 20px;
+}
+
+.closePosition {
+  /* display: flex; */
+  position: relative;
+  left: 600px;
+}
+
+.closeIcon {
+  height: 50px;
+  width: 50px;
+  color: red;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.sendMessage {
+}
+
+.yesBtn {
+  border: 2px solid black;
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: black;
+  border: none;
+  offset: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  color: greenyellow;
+  font-weight: bold;
+}
+
+.noBtn {
+  border: 2px solid black;
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: black;
+  border: none;
+  offset: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  color: red;
+  font-weight: bold;
+}
+
+.submitBtn {
+  border: 2px solid black;
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: orange;
+  border: none;
+  offset: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.tableBox {
+  display: flex;
+  flex-direction: column;
+  background-color: black; /*change to black*/
+  padding: 10px 10px;
+  gap: 50px;
+  border-radius: 20px;
+}
+
+.columnName {
+  font-size: 26px;
+  color: white;
+}
+
+.rowBox {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-left: 450px;
 }
